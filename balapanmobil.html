@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+.mobil1 {
+    background-image:"mobil.png";
+    position: relative;
+    left: 0%;
+    top:-10%;
+    animation: satu 10s infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+}
+
+.mobil2 {
+    background-image: "mobil2.png";
+    position: relative;
+    left:0%;
+    top:60%;
+    animation: dua 10s infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+.mobil3 {
+    background-image: "mobil.png";
+    position: relative;
+    left:0%;
+    top:190%;
+    animation: lima 10s infinite;
+    animation-timing-function: ease-in;
+    z-index: 1;
+}
+
+.mobil4 {
+    background-image: "mobil3.png";
+    position: relative;
+    left:0%;
+    top:250%;
+    animation: tiga 10s infinite;
+    animation-timing-function: ease-out;
+    z-index: 1;
+}
+
+.mobil5 {
+    background-image: "mobil.png";
+    position: relative;
+    left:0%;
+    top:330%;
+    animation: empat 10s infinite;
+    animation-timing-function: ease-in-out;
+    z-index: 1;
+}
+
+.finish {
+    background-image: "finis1.png";
+    position: absolute;
+    top:-5%;
+    right: 5%;
+    z-index: 0;
+}
+
+
+@keyframes satu {
+    from {left: -100px;}
+    to {left: 1380px;}
+}
+
+@keyframes dua {
+    from {left: -200px;}
+    to {left: 1280px;}
+}
+
+@keyframes tiga {
+    from {left: -380px;}
+    to {left: 1280px;}
+}
+
+@keyframes empat {
+    from {left: -500px;}
+    to {left: 1280px;}
+}
+
+@keyframes lima {
+    from {left: -300px;}
+    to {left: 1280px;}
+}
+
+</style>
+</head>
+<body>
+
+<p></p>
+
+<img src="mobil.png" alt="" class="mobil1">
+<img src="mobil2.png" alt="" class="mobil2">
+<img src="mobil.png" alt="" class="mobil3">
+<img src="mobil3.png" alt="" class="mobil4">
+<img src="mobil.png" alt="" class="mobil5">
+<img src="finis1.png" alt="" class="finish">
+
+
+</body>
+</html>
